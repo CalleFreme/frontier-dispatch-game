@@ -2,6 +2,9 @@ using System;
 
 namespace FrontierDispatch.Core
 {
+    /// <summary>
+    /// A location/node in the Frontier Dispatch world graph.
+    /// </summary>
     public sealed class Location
     {
         public Location(int id, string name, WorldPosition position, string type)
